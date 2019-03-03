@@ -13,7 +13,7 @@ const mix = require('laravel-mix');
 
 mix.js('resources/js/app.js', 'public/js')
    .stylus('resources/js/theme/default.styl', 'public/css')
-    .copyDirectory('resources/static/img', 'public/static');
+    .copyDirectory('resources/static', 'public/static');
 mix.webpackConfig({
     resolve: {
         alias: {
