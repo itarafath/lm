@@ -9,6 +9,12 @@
         "prod": "npm run production",
         "production": "cross-env NODE_ENV=production node_modules/webpack/bin/webpack.js --no-progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js"
     },
+    "keywords": [
+    "vuejs",
+    "vuetify",
+    "vue-material-admin",
+    "material"
+    ],
     "devDependencies": {
         "@vue/cli-plugin-babel": "^3.2.0",
         "@vue/cli-plugin-eslint": "^3.2.0",
